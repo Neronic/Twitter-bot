@@ -6,7 +6,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 holidays = ["christmas", "new years eve", "new years day", "independence day",
-            "thanksgiving", "easter", "st. patrick's" "st. patricks", "valentines"]
+            "thanksgiving", "easter", "st. patrick's" "st. patricks", "valentines",
+            "labour day", "labor day"]
 
 def check_mentions(api, keywords, since_id):
     logger.info("Retrieving mentions")
