@@ -31,7 +31,6 @@
     <Compile Include="bots\datepost.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Twitter_bot.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -49,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="runtime.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
