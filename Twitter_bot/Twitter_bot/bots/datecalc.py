@@ -32,7 +32,7 @@ def main():
     while True:
         since_id = check_mentions(api, ["help", "support"], since_id)
         logger.info("Waiting...")
-        time.sleep(15)
+        time.sleep(60)
 
 if __name__ == "__main__":
     main()
