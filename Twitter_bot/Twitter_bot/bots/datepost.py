@@ -23,19 +23,15 @@ def tweet_daily(api):
         return last_tweeted
 
 def main():
-    api = tweet_daily
+    api = create_api()
     i = 0
     while True:
         last_tweeted = tweet_daily(api)
         logger.info("Waiting...")
         time.sleep(3600)
 
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()
 
 
 
@@ -57,5 +53,3 @@ def main():
 
     
 
-if __name__ == "__main__":
-    main()
