@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>30a5c81b-02ca-4e37-a2f3-1c8da42c098f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>bots\datecalc.py</StartupFile>
+    <StartupFile>bots\datepost.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
