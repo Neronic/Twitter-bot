@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>30a5c81b-02ca-4e37-a2f3-1c8da42c098f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>bots\datepost.py</StartupFile>
+    <StartupFile>bots\greeting.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="bots\datepost.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bots\greeting.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
