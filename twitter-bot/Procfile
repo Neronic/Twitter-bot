@@ -1,0 +1,2 @@
+worker: python bots/datepost.py
+one-off: python bots/greeting.py
